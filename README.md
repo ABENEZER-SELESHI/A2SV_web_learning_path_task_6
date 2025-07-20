@@ -2,11 +2,11 @@
 A Next.js project that displays posted online jobs, and allows viewing each job in detail.
 
 ## 🚀 Landing Page
-screenshots/Screenshot%202025-07-20%20140954.png
+![Landing Page](screenshots/Screenshot%202025-07-20%20140954.png)
 
 
 ## 📄 Details Page
-screenshots/Screenshot%202025-07-20%20141121.png
+![Details Page](screenshots/Screenshot%202025-07-20%20141121.png)
 
 
 ## 🔧 Functionalities
