@@ -1,0 +1,21 @@
+.inPerson, .education, .it {
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: 15px;
+}
+
+.education {
+    color: #FFB836;
+    border-color: #FFB836;
+}
+
+.inPerson {
+    color: #56CDAD;
+    background-color: #D6DDEB;
+    border: none;
+}
+
+.it {
+    color: #4640DE;
+    border-color: #4640DE;
+}
