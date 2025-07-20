@@ -1,6 +1,4 @@
-// app/jobs/[id]/page.tsx
-import jobs from '../../../db/jobs.json';
-import Style from './details.module.css';
+import jobs from '../../db/jobs.json';
 
 
 interface DetailPageProps {
@@ -38,11 +36,11 @@ const Detailspage = async ({ params }: DetailPageProps) => {
   return (
     <div className="text-black flex gap-[5%] p-4">
       <div className="w-[1229px] p-4 flex flex-col gap-8 pt-8 pb-8">
-        <div className={Style.description}>
+        <div>
           <h1 className='font-black text-xl pb-4'>Description</h1>
           <p>{job.description}</p>
         </div>
-        <div className={Style.responsibilities}>
+        <div>
           <h1 className='font-black text-xl pb-4'>Responsibilities</h1>
           <ul className="flex flex-col gap-2">
             {job.responsibilities.map((r, i) => (
@@ -57,7 +55,7 @@ const Detailspage = async ({ params }: DetailPageProps) => {
             ))}
           </ul>
         </div>
-        <div className={Style.candidate}>
+        <div>
           <h1 className='font-black text-xl pb-4'>Ideal Candidate We Want</h1>
           <ul className="list-disc pl-6">
             <li>
@@ -70,7 +68,7 @@ const Detailspage = async ({ params }: DetailPageProps) => {
             ))}
           </ul>
         </div>
-        <div className={Style.place}>
+        <div>
           <h1 className='font-black text-xl pb-4'>When & Where</h1>
             <p>
               <img src="/location.png" alt="location icon" className="inline border-2 rounded-full border-[#D6DDEB] p-[5px] mr-2" />
